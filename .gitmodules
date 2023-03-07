@@ -13,3 +13,6 @@
 [submodule "strut"]
 	path = strut
 	url = git@github.com:tantaman/strut.git
+[submodule "misc-js"]
+	path = misc-js
+	url = git@github.com:tantaman/misc.git
