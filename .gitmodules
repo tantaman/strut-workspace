@@ -1,0 +1,15 @@
+[submodule "cr-sqlite"]
+	path = cr-sqlite
+	url = git@github.com:vlcn-io/cr-sqlite.git
+[submodule "crsqlite-js"]
+	path = crsqlite-js
+	url = git@github.com:vlcn-io/crsqlite-js.git
+[submodule "model-js"]
+	path = model-js
+	url = git@github.com:vlcn-io/model.git
+[submodule "live-examples-js"]
+	path = live-examples-js
+	url = https://github.com/vlcn-io/live-examples
+[submodule "strut"]
+	path = strut
+	url = git@github.com:tantaman/strut.git
