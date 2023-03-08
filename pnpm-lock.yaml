@@ -14,12 +14,6 @@ importers:
   cr-sqlite/py/correctness:
     specifiers: {}
 
-  crsqlite-js:
-    specifiers:
-      turbo: ^1.6.3
-    devDependencies:
-      turbo: 1.8.3
-
   crsqlite-js/deps/wa-sqlite:
     specifiers:
       '@web/dev-server': ^0.1.13
