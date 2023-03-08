@@ -17,5 +17,5 @@
 	path = misc-js
 	url = git@github.com:tantaman/misc.git
 [submodule "create-web"]
-	path = create-web
-	url = git@github.com:vlcn-io/create-web.git
+	path = template-web
+	url = git@github.com:vlcn-io/template-web.git
