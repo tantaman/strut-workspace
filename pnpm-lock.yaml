@@ -335,6 +335,12 @@ importers:
     devDependencies:
       typescript: 4.9.5
 
+  misc-js/typescript/build-all:
+    specifiers:
+      typescript: ^4.8.2
+    devDependencies:
+      typescript: 4.9.5
+
   misc-js/typescript/packages/counter:
     specifiers:
       '@strut/utils': workspace:*
@@ -1047,7 +1053,7 @@ importers:
       '@vlcn.io/client-websocket': link:../../crsqlite-js/packages/client-websocket
       '@vlcn.io/crsqlite-wasm': link:../../crsqlite-js/packages/crsqlite-wasm
       '@vlcn.io/model': link:../../model-js/ts/packages/model
-      '@vlcn.io/react': link:../../model-js/ts/packages/react
+      '@vlcn.io/react': link:../../crsqlite-js/packages/react
       '@vlcn.io/rx-tbl': link:../../crsqlite-js/packages/rx-tbl
       '@vlcn.io/value': link:../../model-js/ts/packages/value
       '@vlcn.io/xplat-api': link:../../crsqlite-js/packages/xplat-api

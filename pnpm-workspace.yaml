@@ -56,3 +56,4 @@ packages:
   - "misc-js/typescript/packages/events"
   - "misc-js/typescript/packages/sid"
   - "misc-js/typescript/packages/utils"
+  - "misc-js/typescript/build-all"

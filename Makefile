@@ -26,7 +26,7 @@ misc-js:
 	pnpm run build
 
 model-js: misc-js
-	cd model-js && pnpm run build
+	cd model-js/ts && pnpm run build
 
 all: crsqlite crsqlite-js misc-js model-js
 
