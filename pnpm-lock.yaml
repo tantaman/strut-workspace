@@ -329,6 +329,12 @@ importers:
     devDependencies:
       typescript: 4.9.5
 
+  crsqlite-js/tsbuild-all:
+    specifiers:
+      typescript: ^4.8.2
+    devDependencies:
+      typescript: 4.9.5
+
   misc-js/typescript/packages/counter:
     specifiers:
       '@strut/utils': workspace:*

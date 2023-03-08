@@ -3,7 +3,7 @@ packages:
   - "cr-sqlite/js/integration-check"
   - "cr-sqlite/py/correctness"
   - "cr-sqlite/deps/wa-sqlite"
-  - "tsbuild-all"
+  - "crsqlite-js/tsbuild-all"
   - "crsqlite-js/packages/browser-tests"
   - "crsqlite-js/packages/client-core"
   - "crsqlite-js/packages/client-server-common"
