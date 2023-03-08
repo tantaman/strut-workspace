@@ -7,6 +7,7 @@ packages:
   - "crsqlite-js/packages/client-core"
   - "crsqlite-js/packages/client-server-common"
   - "crsqlite-js/packages/client-websocket"
+  - "crsqlite-js/packages/create-web"
   - "crsqlite-js/packages/crsqlite-wasm"
   - "crsqlite-js/packages/node-allinone"
   - "crsqlite-js/packages/node-tests"

@@ -115,6 +115,14 @@ importers:
     devDependencies:
       typescript: 4.9.5
 
+  crsqlite-js/packages/create-web:
+    specifiers:
+      typescript: ^4.8.4
+      vitest: ^0.25.0
+    devDependencies:
+      typescript: 4.9.5
+      vitest: 0.25.8
+
   crsqlite-js/packages/crsqlite-wasm:
     specifiers:
       '@vlcn.io/wa-sqlite': workspace:*
