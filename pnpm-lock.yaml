@@ -11,9 +11,6 @@ importers:
   cr-sqlite/core:
     specifiers: {}
 
-  cr-sqlite/js/integration-check:
-    specifiers: {}
-
   cr-sqlite/py/correctness:
     specifiers: {}
 

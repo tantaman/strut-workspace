@@ -1,6 +1,5 @@
 packages:
   - "cr-sqlite/core"
-  - "cr-sqlite/js/integration-check"
   - "cr-sqlite/py/correctness"
   - "cr-sqlite/deps/wa-sqlite"
   - "crsqlite-js/tsbuild-all"
