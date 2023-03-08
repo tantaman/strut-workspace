@@ -14,6 +14,12 @@ importers:
   cr-sqlite/py/correctness:
     specifiers: {}
 
+  crsqlite-js:
+    specifiers:
+      turbo: ^1.6.3
+    devDependencies:
+      turbo: 1.8.3
+
   crsqlite-js/deps/wa-sqlite:
     specifiers:
       '@web/dev-server': ^0.1.13
@@ -74,6 +80,7 @@ importers:
       '@vlcn.io/xplat-api': workspace:*
       throttle-debounce: ^5.0.0
       typescript: ^4.9.3
+      vitest: ^0.25.0
     dependencies:
       '@vlcn.io/client-server-common': link:../client-server-common
       '@vlcn.io/rx-tbl': link:../rx-tbl
@@ -82,6 +89,7 @@ importers:
     devDependencies:
       '@types/throttle-debounce': 5.0.0
       typescript: 4.9.5
+      vitest: 0.25.8
 
   crsqlite-js/packages/client-server-common:
     specifiers:
@@ -107,6 +115,7 @@ importers:
       '@vlcn.io/rx-tbl': workspace:*
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.9.3
+      vitest: ^0.25.0
     dependencies:
       '@vlcn.io/client-core': link:../client-core
       '@vlcn.io/client-server-common': link:../client-server-common
@@ -114,6 +123,7 @@ importers:
       '@vlcn.io/xplat-api': link:../xplat-api
     devDependencies:
       typescript: 4.9.5
+      vitest: 0.25.8
 
   crsqlite-js/packages/create-web:
     specifiers:
@@ -218,27 +228,12 @@ importers:
     specifiers:
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.8.4
+      vitest: ^0.25.2
     dependencies:
       '@vlcn.io/xplat-api': link:../xplat-api
     devDependencies:
       typescript: 4.9.5
-
-  crsqlite-js/packages/sandbox:
-    specifiers:
-      '@vlcn.io/crsqlite-wasm': workspace:*
-      comlink: ^4.3.1
-      nanoid: ^4.0.0
-      ohm-js: ^16.4.0
-      uuid-tool: ^2.0.3
-      vite: ^3.2.2
-    dependencies:
-      '@vlcn.io/crsqlite-wasm': link:../crsqlite-wasm
-      comlink: 4.4.1
-      nanoid: 4.0.1
-      ohm-js: 16.6.0
-      uuid-tool: 2.0.3
-    devDependencies:
-      vite: 3.2.5
+      vitest: 0.25.8
 
   crsqlite-js/packages/server-core:
     specifiers:
@@ -314,10 +309,12 @@ importers:
     specifiers:
       comlink: ^4.3.1
       typescript: ^4.8.4
+      vitest: ^0.25.2
     dependencies:
       comlink: 4.4.1
     devDependencies:
       typescript: 4.9.5
+      vitest: 0.25.8
 
   crsqlite-js/packages/xplat-tests:
     specifiers:
@@ -326,6 +323,7 @@ importers:
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.8.4
       uuid: ^9.0.0
+      vitest: ^0.25.2
     dependencies:
       '@vlcn.io/rx-tbl': link:../rx-tbl
       '@vlcn.io/sync-p2p': link:../p2p
@@ -333,6 +331,7 @@ importers:
       uuid: 9.0.0
     devDependencies:
       typescript: 4.9.5
+      vitest: 0.25.8
 
   crsqlite-js/tsbuild-all:
     specifiers:
@@ -12456,10 +12455,6 @@ packages:
   /utils-merge/1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
     engines: {node: '>= 0.4.0'}
-
-  /uuid-tool/2.0.3:
-    resolution: {integrity: sha512-En9cTJm+bLgjjfoIVEW91f0Irr0HZ9mqzK0BwntzZzOg82bOUEIzIw8pNwvC+dhVnnJ8x+fQV8TQ+q6te1ximA==}
-    dev: false
 
   /uuid/8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}

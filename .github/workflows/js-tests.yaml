@@ -53,11 +53,5 @@ jobs:
         if: runner.os == 'Windows'
         run: npm install --global windows-build-tools
 
-      - name: Install
-        run: pnpm i
-
-      - name: Build
-        run: pnpm run build
-
       - name: Test
-        run: cd crsqlite-js && pnpm run test
+        run: cd crsqlite-js && make test

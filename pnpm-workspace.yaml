@@ -2,6 +2,7 @@ packages:
   - "cr-sqlite/core"
   - "cr-sqlite/py/correctness"
   - "cr-sqlite/deps/wa-sqlite"
+  - "crsqlite-js"
   - "crsqlite-js/tsbuild-all"
   - "crsqlite-js/packages/browser-tests"
   - "crsqlite-js/packages/client-core"
