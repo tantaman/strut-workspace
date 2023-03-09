@@ -9,7 +9,7 @@
 	url = git@github.com:vlcn-io/model.git
 [submodule "live-examples-js"]
 	path = live-examples-js
-	url = https://github.com/vlcn-io/live-examples
+	url = git@github.com:vlcn-io/live-examples.git
 [submodule "strut"]
 	path = strut
 	url = git@github.com:tantaman/strut.git
