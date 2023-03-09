@@ -107,6 +107,7 @@ importers:
     specifiers:
       '@vlcn.io/client-core': workspace:*
       '@vlcn.io/client-server-common': workspace:*
+      '@vlcn.io/crsqlite-wasm': workspace:*
       '@vlcn.io/rx-tbl': workspace:*
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.9.3
@@ -114,6 +115,7 @@ importers:
     dependencies:
       '@vlcn.io/client-core': link:../client-core
       '@vlcn.io/client-server-common': link:../client-server-common
+      '@vlcn.io/crsqlite-wasm': link:../crsqlite-wasm
       '@vlcn.io/rx-tbl': link:../rx-tbl
       '@vlcn.io/xplat-api': link:../xplat-api
     devDependencies:
