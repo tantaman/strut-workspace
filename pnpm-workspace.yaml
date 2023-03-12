@@ -13,6 +13,7 @@ packages:
   - "crsqlite-js/packages/node-tests"
   - "crsqlite-js/packages/p2p"
   - "crsqlite-js/packages/react"
+  - "crsqlite-js/packages/rx-query"
   - "crsqlite-js/packages/rx-tbl"
   - "crsqlite-js/packages/sandbox"
   - "crsqlite-js/packages/server-core"
