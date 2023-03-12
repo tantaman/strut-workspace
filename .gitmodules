@@ -19,3 +19,6 @@
 [submodule "create-web"]
 	path = template-web
 	url = git@github.com:vlcn-io/template-web.git
+[submodule "sqlite-parser"]
+	path = sqlite-parser
+	url = git@github.com:vlcn-io/sqlite-parser.git
