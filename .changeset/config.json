@@ -1,0 +1,28 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "fixed": [],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": [
+    "access-token-jwt",
+    "strut",
+    "@vlcn.io/browser-tests",
+    "@vlcn.io/nodeno-tests",
+    "@vlcn.io/xplat-tests",
+    "@vlcn.io/tsbuild-all",
+    "live-examples-js",
+    "misc-js-tsbuildall",
+    "@vlcn.io/build-all",
+    "@vlcn.io/integration-tests-data-model",
+    "@strut/app-server-shared",
+    "oauth2-bearer",
+    "server",
+    "vlcn-web-app",
+    "template-web-shared",
+    "@vlcn.io/py-correctness"
+  ]
+}
