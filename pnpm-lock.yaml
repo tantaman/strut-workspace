@@ -16,10 +16,7 @@ importers:
   cr-sqlite/core:
     specifiers: {}
 
-  cr-sqlite/py/correctness:
-    specifiers: {}
-
-  crsqlite-js/deps/wa-sqlite:
+  cr-sqlite/js/deps/wa-sqlite:
     specifiers:
       '@web/dev-server': ^0.1.13
       jasmine-core: ^3.7.1
@@ -46,7 +43,7 @@ importers:
       sinon@11.1.2:
         unplugged: true
 
-  crsqlite-js/packages/browser-tests:
+  cr-sqlite/js/packages/browser-tests:
     specifiers:
       '@types/chai': ^4.3.3
       '@types/mocha': ^10.0.0
@@ -71,7 +68,7 @@ importers:
       typescript: 4.9.5
       vite: 3.2.5_@types+node@18.14.6
 
-  crsqlite-js/packages/client-core:
+  cr-sqlite/js/packages/client-core:
     specifiers:
       '@types/throttle-debounce': ^5.0.0
       '@vlcn.io/client-server-common': workspace:*
@@ -88,7 +85,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/client-server-common:
+  cr-sqlite/js/packages/client-server-common:
     specifiers:
       '@types/uuid': ^8.3.4
       fast-check: ^3.4.0
@@ -105,7 +102,7 @@ importers:
       uuid: 9.0.0
       vitest: 0.26.3
 
-  crsqlite-js/packages/client-websocket:
+  cr-sqlite/js/packages/client-websocket:
     specifiers:
       '@vlcn.io/client-core': workspace:*
       '@vlcn.io/client-server-common': workspace:*
@@ -124,7 +121,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/create-web:
+  cr-sqlite/js/packages/create-web:
     specifiers:
       typescript: ^4.8.4
       vitest: ^0.25.0
@@ -132,7 +129,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/crsqlite-wasm:
+  cr-sqlite/js/packages/crsqlite-wasm:
     specifiers:
       '@vlcn.io/wa-sqlite': workspace:*
       '@vlcn.io/xplat-api': workspace:*
@@ -147,7 +144,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.26.3
 
-  crsqlite-js/packages/node-allinone:
+  cr-sqlite/js/packages/node-allinone:
     specifiers:
       '@types/jest': ^29.2.2
       '@vlcn.io/crsqlite': workspace:*
@@ -157,7 +154,7 @@ importers:
       typescript: ^4.8.4
       vitest: ^0.25.0
     dependencies:
-      '@vlcn.io/crsqlite': link:../../../cr-sqlite/core
+      '@vlcn.io/crsqlite': link:../../../core
       '@vlcn.io/xplat-api': link:../xplat-api
       better-sqlite3: 8.1.0
     devDependencies:
@@ -166,7 +163,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/node-tests:
+  cr-sqlite/js/packages/node-tests:
     specifiers:
       '@vlcn.io/crsqlite-allinone': workspace:*
       '@vlcn.io/rx-tbl': workspace:*
@@ -187,7 +184,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/p2p:
+  cr-sqlite/js/packages/p2p:
     specifiers:
       '@types/jest': ^29.2.2
       '@types/uuid': ^8.3.4
@@ -206,7 +203,7 @@ importers:
       jest: 29.5.0
       typescript: 4.9.5
 
-  crsqlite-js/packages/react:
+  cr-sqlite/js/packages/react:
     specifiers:
       '@types/react': ^18.0.25
       '@vlcn.io/rx-tbl': workspace:*
@@ -223,7 +220,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.26.3
 
-  crsqlite-js/packages/rx-query:
+  cr-sqlite/js/packages/rx-query:
     specifiers:
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.8.4
@@ -234,7 +231,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/rx-tbl:
+  cr-sqlite/js/packages/rx-tbl:
     specifiers:
       '@vlcn.io/xplat-api': workspace:*
       typescript: ^4.8.4
@@ -245,7 +242,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/server-core:
+  cr-sqlite/js/packages/server-core:
     specifiers:
       '@types/better-sqlite3': ^7.6.2
       '@types/node': ^18.11.9
@@ -260,7 +257,7 @@ importers:
       yargs: ^17.6.2
     dependencies:
       '@vlcn.io/client-server-common': link:../client-server-common
-      '@vlcn.io/crsqlite': link:../../../cr-sqlite/core
+      '@vlcn.io/crsqlite': link:../../../core
       better-sqlite3: 8.1.0
       uuid: 9.0.0
       winston: 3.8.2
@@ -272,7 +269,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/server-websocket:
+  cr-sqlite/js/packages/server-websocket:
     specifiers:
       '@types/better-sqlite3': ^7.6.2
       '@types/express': ^4.17.14
@@ -296,7 +293,7 @@ importers:
     dependencies:
       '@types/yargs': 17.0.22
       '@vlcn.io/client-server-common': link:../client-server-common
-      '@vlcn.io/crsqlite': link:../../../cr-sqlite/core
+      '@vlcn.io/crsqlite': link:../../../core
       '@vlcn.io/server-core': link:../server-core
       better-sqlite3: 8.1.0
       cors: 2.8.5
@@ -315,7 +312,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/xplat-api:
+  cr-sqlite/js/packages/xplat-api:
     specifiers:
       comlink: ^4.3.1
       typescript: ^4.8.4
@@ -326,7 +323,7 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/packages/xplat-tests:
+  cr-sqlite/js/packages/xplat-tests:
     specifiers:
       '@vlcn.io/rx-tbl': workspace:*
       '@vlcn.io/sync-p2p': workspace:*
@@ -343,46 +340,14 @@ importers:
       typescript: 4.9.5
       vitest: 0.25.8
 
-  crsqlite-js/tsbuild-all:
+  cr-sqlite/js/tsbuild-all:
     specifiers:
       typescript: ^4.8.2
     devDependencies:
       typescript: 4.9.5
 
-  live-examples-js:
-    specifiers:
-      '@types/react': ^18.0.27
-      '@types/react-dom': ^18.0.10
-      '@types/uuid': ^8.3.4
-      '@vlcn.io/client-websocket': 0.8.0
-      '@vlcn.io/crsqlite-wasm': 0.9.0
-      '@vlcn.io/react': 0.9.0
-      '@vlcn.io/rx-tbl': 0.8.0
-      '@vlcn.io/server-websocket': 0.8.0
-      '@vlcn.io/sync-p2p': 0.7.1
-      '@vlcn.io/xplat-api': 0.8.0
-      nanoid: ^4.0.0
-      react: ^18.2.0
-      react-dom: ^18.2.0
-      uuid: ^9.0.0
-      vite: ^3.2.2
-    dependencies:
-      '@vlcn.io/server-websocket': link:../crsqlite-js/packages/server-websocket
-    devDependencies:
-      '@types/react': 18.0.28
-      '@types/react-dom': 18.0.11
-      '@types/uuid': 8.3.4
-      '@vlcn.io/client-websocket': link:../crsqlite-js/packages/client-websocket
-      '@vlcn.io/crsqlite-wasm': link:../crsqlite-js/packages/crsqlite-wasm
-      '@vlcn.io/react': link:../crsqlite-js/packages/react
-      '@vlcn.io/rx-tbl': link:../crsqlite-js/packages/rx-tbl
-      '@vlcn.io/sync-p2p': link:../crsqlite-js/packages/p2p
-      '@vlcn.io/xplat-api': link:../crsqlite-js/packages/xplat-api
-      nanoid: 4.0.1
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      uuid: 9.0.0
-      vite: 3.2.5
+  cr-sqlite/py/correctness:
+    specifiers: {}
 
   misc-js/typescript/build-all:
     specifiers:
@@ -1099,13 +1064,13 @@ importers:
       '@strut/app-server-shared': link:../app-server-shared
       '@strut/counter': link:../../misc-js/typescript/packages/counter
       '@types/throttle-debounce': 5.0.0
-      '@vlcn.io/client-websocket': link:../../crsqlite-js/packages/client-websocket
-      '@vlcn.io/crsqlite-wasm': link:../../crsqlite-js/packages/crsqlite-wasm
+      '@vlcn.io/client-websocket': link:../../cr-sqlite/js/packages/client-websocket
+      '@vlcn.io/crsqlite-wasm': link:../../cr-sqlite/js/packages/crsqlite-wasm
       '@vlcn.io/model': link:../../model-js/ts/packages/model
-      '@vlcn.io/react': link:../../crsqlite-js/packages/react
-      '@vlcn.io/rx-tbl': link:../../crsqlite-js/packages/rx-tbl
+      '@vlcn.io/react': link:../../cr-sqlite/js/packages/react
+      '@vlcn.io/rx-tbl': link:../../cr-sqlite/js/packages/rx-tbl
       '@vlcn.io/value': link:../../model-js/ts/packages/value
-      '@vlcn.io/xplat-api': link:../../crsqlite-js/packages/xplat-api
+      '@vlcn.io/xplat-api': link:../../cr-sqlite/js/packages/xplat-api
       chroma-js: 2.4.2
       hotkeys-js: 3.10.1
       lexical: 0.6.5
@@ -1241,9 +1206,9 @@ importers:
       ws: ^8.12.0
     dependencies:
       '@strut/app-server-shared': link:../app-server-shared
-      '@vlcn.io/client-server-common': link:../../crsqlite-js/packages/client-server-common
-      '@vlcn.io/server-core': link:../../crsqlite-js/packages/server-core
-      '@vlcn.io/server-websocket': link:../../crsqlite-js/packages/server-websocket
+      '@vlcn.io/client-server-common': link:../../cr-sqlite/js/packages/client-server-common
+      '@vlcn.io/server-core': link:../../cr-sqlite/js/packages/server-core
+      '@vlcn.io/server-websocket': link:../../cr-sqlite/js/packages/server-websocket
       access-token-jwt: link:../deps/access-token-jwt
       bcrypt: 5.1.0
       better-sqlite3: 8.1.0
@@ -1289,11 +1254,11 @@ importers:
       vite: ^4.1.4
       vitest: ^0.29.1
     dependencies:
-      '@vlcn.io/client-websocket': link:../../../../crsqlite-js/packages/client-websocket
-      '@vlcn.io/crsqlite-wasm': link:../../../../crsqlite-js/packages/crsqlite-wasm
-      '@vlcn.io/react': link:../../../../crsqlite-js/packages/react
-      '@vlcn.io/rx-tbl': link:../../../../crsqlite-js/packages/rx-tbl
-      '@vlcn.io/xplat-api': link:../../../../crsqlite-js/packages/xplat-api
+      '@vlcn.io/client-websocket': link:../../../../cr-sqlite/js/packages/client-websocket
+      '@vlcn.io/crsqlite-wasm': link:../../../../cr-sqlite/js/packages/crsqlite-wasm
+      '@vlcn.io/react': link:../../../../cr-sqlite/js/packages/react
+      '@vlcn.io/rx-tbl': link:../../../../cr-sqlite/js/packages/rx-tbl
+      '@vlcn.io/xplat-api': link:../../../../cr-sqlite/js/packages/xplat-api
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -1325,8 +1290,8 @@ importers:
       express: ^4.18.2
       ws: ^8.11.0
     dependencies:
-      '@vlcn.io/server-core': link:../../crsqlite-js/packages/server-core
-      '@vlcn.io/server-websocket': link:../../crsqlite-js/packages/server-websocket
+      '@vlcn.io/server-core': link:../../cr-sqlite/js/packages/server-core
+      '@vlcn.io/server-websocket': link:../../cr-sqlite/js/packages/server-websocket
       express: 4.18.2
       ws: 8.12.1
     devDependencies:
@@ -4259,7 +4224,7 @@ packages:
   /@types/body/5.1.1:
     resolution: {integrity: sha512-GI4AA/EAGgNskRxKyF11aFneqlMoGGGyEt5zRlsSPR4rYhTSifRsM1Q0msOE64cjHApjukDOJynJd7HHX4OIdw==}
     dependencies:
-      '@types/node': 14.18.37
+      '@types/node': 18.14.6
     dev: true
 
   /@types/cacheable-request/6.0.3:
@@ -4644,7 +4609,7 @@ packages:
   /@types/type-is/1.6.3:
     resolution: {integrity: sha512-PNs5wHaNcBgCQG5nAeeZ7OvosrEsI9O4W2jAOO9BCCg4ux9ZZvH2+0iSCOIDBiKuQsiNS8CBlmfX9f5YBQ22cA==}
     dependencies:
-      '@types/node': 14.18.37
+      '@types/node': 18.14.6
     dev: true
 
   /@types/unist/2.0.6:
